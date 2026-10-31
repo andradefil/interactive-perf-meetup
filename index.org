@@ -1,0 +1,36 @@
+* Interactive Perf Analysis on the JVM
+- building the clojure classpath
+  - ns impl.classpath
+  - reading the data in the repl
+  - limiting length
+  - invoking clojure from java
+- evaluate at the REPL
+  - subrepl
+  - morse
+- tools
+  - JDK 21
+  - VisualVM
+  - JDK Mission Control
+  - Clojure
+- explore the JVM
+  - find defs
+  - list jvm process
+    - jcmd
+  - open a jar file
+    - jar -tf
+  - connect to a jvm process
+  - interact with it
+  - explore the memory
+  - explore the network
+  - classpath
+  - collect metrics
+- read-data
+  - large bytes
+- issues
+  - stuck thread
+- classpath
+- multi-thread
+  - thread pool
+  - misconfigured threadpools
+- garbage collector
+  - trigger a gc
